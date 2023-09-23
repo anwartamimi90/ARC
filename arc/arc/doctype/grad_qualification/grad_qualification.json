@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-09-23 22:48:42.169057",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "qualification",
+  "years_of_experience"
+ ],
+ "fields": [
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Qualification",
+   "options": "Qualification",
+   "reqd": 1
+  },
+  {
+   "fieldname": "years_of_experience",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Years Of Experience"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-23 23:00:43.640924",
+ "modified_by": "Administrator",
+ "module": "ARC",
+ "name": "Grad Qualification",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
