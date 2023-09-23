@@ -37,6 +37,19 @@ app_license = "MIT"
 # Home Pages
 # ----------
 
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["name","in",[
+                  "Item Group-custom_group_code",
+                        "Item Group-custom_group_name"
+            ]]
+        ]
+
+    },
+]
+
 # application home page (will override Website Settings)
 # home_page = "login"
 
