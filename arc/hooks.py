@@ -43,7 +43,8 @@ fixtures = [
         "filters": [
             ["name","in",[
                   "Item Group-custom_group_code",
-                        "Item Group-custom_group_name"
+                    "Item Group-custom_group_name",
+                    "Item-custom_item_group_description",
             ]]
         ]
 
