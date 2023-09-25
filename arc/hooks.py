@@ -50,7 +50,8 @@ fixtures = [
                     "Employee Grade-custom_grade_qualification",
                     "Designation-custom_designation_number",
             ]]
-        ]
+        ],
+        "dt":"Translation"
 
     },
 ]
