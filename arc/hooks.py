@@ -146,6 +146,12 @@ fixtures = [
 #	}
 # }
 
+doc_events = {
+	"Employee": {
+		"validate": "arc.public.override_employee.calculate_num_of_months",		
+	}
+}
+
 # Scheduled Tasks
 # ---------------
 
