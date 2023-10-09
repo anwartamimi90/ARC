@@ -39,18 +39,25 @@ doctype_js = {"Employee" : "public/js/Employee.js"}
 
 fixtures = [
     {
-        "dt": "Custom Field"
-        # ,"filters": [
-        #     ["name","in",[
-        #           "Item Group-custom_group_code",
-        #             "Item Group-custom_group_name",
-        #             "Item-custom_item_group_description",
-        #             "Employee Grade-custom_job_category",
-        #             "Employee Grade-custom_qualification_part",
-        #             "Employee Grade-custom_grade_qualification",
-        #             "Designation-custom_designation_number",
-        #     ]]
-        # ]       
+        "dt": "Salary Structure"
+        ,"filters": [
+            ["name","in",[
+                "هيكلية رواتب عامة",
+            ]]
+        ]          
+    },
+    {
+        "dt": "Salary Component"
+        ,"filters": [
+            ["name","in",[
+                "العلاوة الحقلية",
+                "بدلات متنوعة",
+                "خصم الغياب",
+                "خصم الضمان",
+                "خصم السلف",
+                "الراتب الأساسي",
+            ]]
+        ],
     },
     {   
         "dt":"Translation"
