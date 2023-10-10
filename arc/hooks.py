@@ -61,7 +61,15 @@ fixtures = [
     },
     {   
         "dt":"Translation"
-    }
+    },
+    {
+        "dt": "Supplier Group"
+        ,"filters": [
+            ["name","in",[
+                "Manufacturer",
+            ]]
+        ],
+    },
 ]
 
 # application home page (will override Website Settings)
